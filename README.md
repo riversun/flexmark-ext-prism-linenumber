@@ -19,7 +19,7 @@ It is licensed under [MIT](https://opensource.org/licenses/MIT).
 </dependency>
 ```
 
-## This library and flexmark-java 
+## This library and flexmark-java make following markdown output html
 
 
 **Input markdown**
@@ -47,9 +47,9 @@ public class App
 ````
 
 
-**Output markdown**
+**Output html**
 
-```
+```html
 <p><strong>Hello</strong></p>
 <pre class="line-numbers"><code class="language-java">
 
@@ -70,8 +70,7 @@ public class App
 
 
 
-
-## Example
+## Example code
 
 
 ```java
